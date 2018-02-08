@@ -2,6 +2,7 @@
 
 ## 部署内容
 * 服务器(本脚本部署)  
+  > wget -O- --no-check-certificate https://raw.githubusercontent.com/feilongfl/vps-v2ray-init-script/master/install.sh | sh
   * v2ray  
   * kcptun  
   * udp2raw  
