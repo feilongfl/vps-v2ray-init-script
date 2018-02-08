@@ -39,5 +39,4 @@ wget -O- https://github.com/wangyu-/udp2raw-tunnel/releases/download/20180111.1/
 mv udp2raw_amd64 /usr/bin/udp2raw-server
 popd
 
-tmux new "htop" ';' split -h "sh ./v2ray.sh" ';' split -l 20 "sh ./kcptun.sh"';' split -l 10 "sh ./udp2raw.sh"
-
+./start.sh
