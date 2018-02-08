@@ -8,7 +8,7 @@
     "settings": {
       "clients": [
         {
-          "id": "4a769c93-998c-4cad-8bb8-eac5bf7ac58a",
+          "id": "",
           "level": 1,
           "security": "chacha20-poly1305",
           "alterId": 128
