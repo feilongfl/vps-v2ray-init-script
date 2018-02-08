@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 export UUID=$(cat /proc/sys/kernel/random/uuid)
 cat ./config.json | jq '.inbound.settings.clients[0].id="'$UUID'"' | tee /etc/v2ray/config.json
 echo your UUID is: $UUID
