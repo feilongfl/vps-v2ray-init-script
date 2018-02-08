@@ -1,15 +1,15 @@
 # vps 快速部署脚本
 
 ## 部署内容
-* 服务器(本脚本部署)
-  * v2ray
-  * kcptun
-  * udp2raw
+* 服务器(本脚本部署)  
+  * v2ray  
+  * kcptun  
+  * udp2raw  
 
-* 客户端（请手动配置）
-  * v2ray
+* 客户端（请手动配置）  
+  * v2ray  
     请参考[v2ray官方网站](www.v2ray.com)。
-  * kcptun
+  * kcptun  
     ```
     {
       "localaddr": ":20001",
@@ -21,7 +21,7 @@
       "key": "feilong"
     }
     ```
-  * udp2raw
+  * udp2raw  
     ```
     # Basically this file is the equivalent to splitting the command line options into multiple lines
     # Each line should contain an option
