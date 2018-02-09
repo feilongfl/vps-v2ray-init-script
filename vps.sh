@@ -24,6 +24,7 @@ apt install -y jq
 apt install -y mtr
 apt install -y traceroute
 apt install -y iperf3
+apt install -y nginx
 #apt install -y cmake
 #apt install -y autoconf
 apt install -y sudo
