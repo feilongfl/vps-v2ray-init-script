@@ -24,9 +24,16 @@ apt install -y jq
 apt install -y mtr
 apt install -y traceroute
 apt install -y iperf3
+#apt install -y cmake
+#apt install -y autoconf
 apt install -y sudo
 apt install -y locales
 dpkg-reconfigure locales
+
+#nodejs
+#curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+#apt install -y nodejs
+#npm i -g lavas
 
 # v2ray
 bash <(curl -L -s https://install.direct/go.sh)
