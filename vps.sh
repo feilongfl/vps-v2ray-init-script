@@ -21,6 +21,11 @@ apt install -y htop
 apt install -y git
 apt install -y mosh
 apt install -y jq
+apt install -y mtr
+apt install -y traceroute
+apt install -y sudo
+apt install -y locales
+dpkg-reconfigure locales
 
 # v2ray
 bash <(curl -L -s https://install.direct/go.sh)
