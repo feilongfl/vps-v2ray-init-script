@@ -23,6 +23,7 @@ apt install -y mosh
 apt install -y jq
 apt install -y mtr
 apt install -y traceroute
+apt install -y iperf3
 apt install -y sudo
 apt install -y locales
 dpkg-reconfigure locales
